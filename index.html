@@ -6,7 +6,7 @@
 <!-- демо: убрать noindex при запуске -->
 <meta name="robots" content="noindex, nofollow">
 <title>Массаж на дому в Санкт-Петербурге — Маргарита, выезд в Красногвардейский район</title>
-<meta name="description" content="Классический, расслабляющий массаж и массаж спины и шеи с выездом на дом. Приеду со столом и всем необходимым. Красногвардейский район и рядом, только для женщин. От 1700 ₽, первый сеанс −20%.">
+<meta name="description" content="Классический, расслабляющий массаж и массаж спины и шеи с выездом на дом. Приеду со столом и всем необходимым. Красногвардейский район и рядом, для взрослых от 18 лет. От 1700 ₽, первый сеанс −20%.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232E3830'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23C9D3B8' font-family='serif'%3EМ%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="assets/css/fonts.css">
 <link rel="stylesheet" href="assets/css/fontawesome.css">
@@ -16,7 +16,7 @@
   "@context": "https://schema.org",
   "@type": "HealthAndBeautyBusiness",
   "name": "Маргарита · массаж на дому",
-  "description": "Немедицинский массаж с выездом на дом: классический, расслабляющий, спина и шея. Только для женщин.",
+  "description": "Немедицинский массаж с выездом на дом: классический, расслабляющий, спина и шея. Для взрослых от 18 лет.",
   "areaServed": [
     {"@type": "AdministrativeArea", "name": "Красногвардейский район, Санкт-Петербург"},
     {"@type": "AdministrativeArea", "name": "Калининский район, Санкт-Петербург"},
@@ -89,8 +89,8 @@ nav.main .btn{padding:11px 20px;font-size:15px}
 
 /* hero */
 .hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;background:linear-gradient(135deg,var(--dark-2),var(--accent));color:#fff;padding:110px 0 70px}
-.hero::before{content:"";position:absolute;inset:-10%;background-image:url('assets/img/hero.jpg'),linear-gradient(135deg,var(--dark-2),var(--accent));background-size:cover;background-position:center 40%;animation:kenburns 25s ease-in-out infinite alternate;will-change:transform}
-.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(28,34,29,.82) 0%,rgba(28,34,29,.6) 55%,rgba(28,34,29,.45) 100%)}
+.hero::before{content:"";position:absolute;inset:-10%;background-image:url('assets/img/process.jpg'),linear-gradient(135deg,var(--dark-2),var(--accent));background-size:cover;background-position:center;animation:kenburns 25s ease-in-out infinite alternate;will-change:transform}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(28,34,29,.88) 0%,rgba(28,34,29,.72) 55%,rgba(28,34,29,.55) 100%)}
 @keyframes kenburns{from{transform:scale(1) translate(0,0)}to{transform:scale(1.08) translate(-1.5%,-1%)}}
 #particles{position:absolute;inset:0;z-index:1;pointer-events:none}
 .hero-inner{position:relative;z-index:2;display:grid;grid-template-columns:55fr 45fr;gap:40px;align-items:center}
@@ -102,7 +102,7 @@ nav.main .btn{padding:11px 20px;font-size:15px}
 .proof{margin-top:26px;font-size:13px;color:rgba(255,255,255,.72);letter-spacing:.02em}
 .proof b{color:var(--accent-light);font-weight:600}
 .hero-panel{position:relative;animation:floaty 8s ease-in-out infinite}
-.hero-panel .img{aspect-ratio:4/5;border-radius:0 24px 24px 0;clip-path:polygon(8% 0,100% 0,100% 100%,0 100%);background-image:url('assets/img/panel.jpg'),linear-gradient(135deg,var(--dark-2),var(--accent));background-size:cover;background-position:center}
+.hero-panel .img{aspect-ratio:4/5;border-radius:0 24px 24px 0;clip-path:polygon(8% 0,100% 0,100% 100%,0 100%);background-image:url('assets/img/margarita-panel.jpg'),linear-gradient(135deg,var(--dark-2),var(--accent));background-size:cover;background-position:center}
 .badge{position:absolute;left:-6px;bottom:36px;font-size:13px;font-weight:700;color:#fff;background:rgba(0,0,0,.72);border:1px solid var(--accent-light);border-radius:100px;padding:9px 18px;animation:badgePulse 3s ease-in-out infinite}
 @keyframes floaty{0%,100%{transform:translate(0,0)}50%{transform:translate(3px,-10px)}}
 @keyframes badgePulse{0%,100%{box-shadow:0 0 0 0 rgba(201,211,184,.0)}50%{box-shadow:0 0 0 6px rgba(201,211,184,.18)}}
@@ -162,7 +162,7 @@ nav.main .btn{padding:11px 20px;font-size:15px}
 .ph{position:relative;border:2px dashed rgba(201,211,184,.45);border-radius:16px;background:repeating-linear-gradient(45deg,rgba(255,255,255,.03) 0 12px,transparent 12px 24px),linear-gradient(135deg,#3A463C,var(--dark-2));display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:rgba(255,255,255,.7);text-align:center;padding:24px;font-size:14px}
 .ph i{font-size:34px;color:var(--accent-light)}
 .ph b{color:#fff;font-size:16px}
-.about-photo{aspect-ratio:4/5}
+.about-photo{aspect-ratio:4/5;width:100%;object-fit:cover;border-radius:16px;background:linear-gradient(135deg,#3A463C,var(--dark-2))}
 .about .h2{font-size:clamp(30px,4vw,46px)}
 .about .statement{font-size:20px;font-weight:700;margin:20px 0 22px;line-height:1.45}
 .todo{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:rgba(201,211,184,.16);color:var(--accent-light);border:1px dashed rgba(201,211,184,.5);border-radius:6px;padding:3px 8px;margin-bottom:10px}
@@ -185,8 +185,21 @@ nav.main .btn{padding:11px 20px;font-size:15px}
 .gift-inner{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center}
 .gift .h2{color:#fff}
 .gift p{color:rgba(255,255,255,.85);font-size:18px;margin:16px 0 0;max-width:560px}
-.gift-card{aspect-ratio:16/10;border-radius:18px;background-image:url('assets/img/kit.jpg'),linear-gradient(135deg,var(--dark-2),var(--accent));background-size:cover;background-position:center;position:relative;box-shadow:0 30px 60px rgba(0,0,0,.25)}
+.gift-card{aspect-ratio:16/10;border-radius:18px;background-image:url('assets/img/oils.jpg'),linear-gradient(135deg,var(--dark-2),var(--accent));background-size:cover;background-position:center;position:relative;box-shadow:0 30px 60px rgba(0,0,0,.25)}
 .gift-card::after{content:"Подарочный сертификат";position:absolute;left:18px;bottom:18px;background:rgba(255,253,249,.92);color:var(--dark);font-family:var(--display);font-size:22px;font-weight:600;padding:8px 16px;border-radius:10px}
+
+/* clients */
+.clients{background:var(--sand)}
+.cl-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+.cl-card{background:var(--white);border:1px solid rgba(46,56,48,.08);border-radius:18px;padding:32px}
+.cl-card i.ic{font-size:28px;color:var(--accent)}
+.cl-card h3{font-size:26px;margin:14px 0 14px}
+.cl-card ul{margin:0;padding-left:20px;color:var(--muted);font-size:16px;display:grid;gap:8px}
+.cl-card ul b{color:var(--text)}
+.doctor{display:flex;gap:18px;align-items:flex-start;margin-top:24px;background:var(--dark);color:#fff;border-radius:18px;padding:26px 30px}
+.doctor i{font-size:30px;color:var(--accent-light);margin-top:4px}
+.doctor p{margin:0;font-size:17px;line-height:1.6;color:rgba(255,255,255,.88)}
+.doctor b{color:#fff}
 
 /* faq */
 .faq{background:var(--white)}
@@ -259,7 +272,7 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
   .hero-panel{display:none}
   .hero .sub{margin-left:auto;margin-right:auto;font-size:18px}
   .hero-actions{flex-direction:column}
-  .steps,.offer-grid{grid-template-columns:1fr}
+  .steps,.offer-grid,.cl-grid{grid-template-columns:1fr}
   .metrics{grid-template-columns:1fr 1fr;row-gap:30px}
   .metric:nth-child(3){border-left:0}
   .svc-grid{grid-template-columns:1fr}
@@ -283,6 +296,7 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
       <a class="link" href="#how">Как это работает</a>
       <a class="link" href="#services">Услуги и цены</a>
       <a class="link" href="#about">Обо мне</a>
+      <a class="link" href="#clients">Клиентам</a>
       <a class="link" href="#faq">Вопросы</a>
       <!-- TODO: реальный телефон -->
       <a class="phone-link" href="#contacts"><i class="fa-solid fa-phone"></i> +7 (9XX) XXX-XX-XX</a>
@@ -296,6 +310,7 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
   <a href="#how">Как это работает</a>
   <a href="#services">Услуги и цены</a>
   <a href="#about">Обо мне</a>
+  <a href="#clients">Клиентам</a>
   <a href="#faq">Вопросы</a>
   <a href="#contacts">Записаться</a>
 </div>
@@ -313,7 +328,7 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
         <!-- TODO: ссылка на Telegram -->
         <a class="btn btn-ghost" href="#contacts"><i class="fa-brands fa-telegram"></i> Написать в Telegram</a>
       </div>
-      <p class="proof"><b>Первый сеанс −20%</b> · Красногвардейский район и рядом · Только для женщин</p>
+      <p class="proof"><b>Первый сеанс −20%</b> · Красногвардейский район и рядом · Для взрослых 18+</p>
     </div>
     <div class="hero-panel" aria-hidden="true">
       <div class="img"></div>
@@ -327,7 +342,7 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
     <div class="strip-group">
       <span><i class="fa-solid fa-house"></i>Выезд на дом со своим столом</span>
       <span><i class="fa-solid fa-location-dot"></i>Красногвардейский район и рядом</span>
-      <span><i class="fa-solid fa-venus"></i>Только для женщин</span>
+      <span><i class="fa-solid fa-user-check"></i>Мужчинам и женщинам от 18 лет</span>
       <span><i class="fa-regular fa-clock"></i>Вт–сб, 10:00–21:00</span>
       <span><i class="fa-solid fa-gift"></i>Первый сеанс −20%</span>
       <span><i class="fa-solid fa-receipt"></i>Самозанятая, выдаю чек</span>
@@ -335,7 +350,7 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
     <div class="strip-group" aria-hidden="true">
       <span><i class="fa-solid fa-house"></i>Выезд на дом со своим столом</span>
       <span><i class="fa-solid fa-location-dot"></i>Красногвардейский район и рядом</span>
-      <span><i class="fa-solid fa-venus"></i>Только для женщин</span>
+      <span><i class="fa-solid fa-user-check"></i>Мужчинам и женщинам от 18 лет</span>
       <span><i class="fa-regular fa-clock"></i>Вт–сб, 10:00–21:00</span>
       <span><i class="fa-solid fa-gift"></i>Первый сеанс −20%</span>
       <span><i class="fa-solid fa-receipt"></i>Самозанятая, выдаю чек</span>
@@ -442,12 +457,7 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
 
 <section class="about on-dark" id="about">
   <div class="wrap about-grid">
-    <!-- TODO: заменить на реальное фото Маргариты (портрет по пояс, светлый фон) -->
-    <div class="ph about-photo" data-aos="fade-right">
-      <i class="fa-solid fa-camera"></i>
-      <b>Здесь будет фото Маргариты</b>
-      Портрет по пояс, дневной свет, однотонная форма
-    </div>
+    <img class="about-photo" src="assets/img/margarita-portrait.jpg" alt="Маргарита, массажист" data-aos="fade-right">
     <div>
       <span class="eyebrow">Обо мне</span>
       <h2 class="h2" data-aos="fade-left">Меня зовут Маргарита</h2>
@@ -456,7 +466,7 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
       <ul class="checks">
         <li data-aos="fade-left" data-aos-delay="100"><i class="fa-solid fa-circle-check"></i>Приезжаю со своим столом, маслами и одноразовым бельём</li>
         <li data-aos="fade-left" data-aos-delay="200"><i class="fa-solid fa-circle-check"></i>Перед первым сеансом уточняю противопоказания и пожелания</li>
-        <li data-aos="fade-left" data-aos-delay="300"><i class="fa-solid fa-circle-check"></i>Работаю только с женщинами — спокойно и комфортно</li>
+        <li data-aos="fade-left" data-aos-delay="300"><i class="fa-solid fa-circle-check"></i>Работаю со взрослыми от 18 лет — с мужчинами и с женщинами</li>
         <li data-aos="fade-left" data-aos-delay="400"><i class="fa-solid fa-circle-check"></i>Подбираю силу нажима под вас, а не по шаблону</li>
         <li data-aos="fade-left" data-aos-delay="500"><i class="fa-solid fa-circle-check"></i>Самозанятая, на каждую оплату выдаю чек</li>
       </ul>
@@ -499,14 +509,57 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
   </div>
 </section>
 
+<section class="clients" id="clients">
+  <div class="wrap">
+    <span class="eyebrow">Клиентам</span>
+    <h2 class="h2">Перед сеансом</h2>
+    <p class="lead">Массаж немедицинский — для отдыха и расслабления. Чтобы он прошёл с пользой и безопасно, проверьте, пожалуйста, эти пункты.</p>
+    <div class="cl-grid">
+      <article class="cl-card" data-aos="fade-up">
+        <i class="ic fa-solid fa-user-check"></i>
+        <h3>Кому делаю массаж</h3>
+        <ul>
+          <li><b>Взрослым от 18 лет</b> — мужчинам и женщинам.</li>
+          <li>Детям и подросткам до 18 лет массаж не делаю.</li>
+        </ul>
+      </article>
+      <article class="cl-card" data-aos="fade-up" data-aos-delay="90">
+        <i class="ic fa-solid fa-hand-holding-heart"></i>
+        <h3>Требования к клиенту</h3>
+        <ul>
+          <li><b>Чистая кожа</b> в зоне массажа — без открытых ран, ссадин, сыпи, ожогов и других повреждений.</li>
+          <li>Хорошее самочувствие — без температуры и признаков простуды.</li>
+          <li>Трезвое состояние.</li>
+          <li>Желательно принять душ и не есть плотно за 1–2 часа до сеанса.</li>
+        </ul>
+      </article>
+      <article class="cl-card" data-aos="fade-up" data-aos-delay="180">
+        <i class="ic fa-solid fa-ban"></i>
+        <h3>Когда массаж нельзя</h3>
+        <ul>
+          <li>Острые воспаления, свежие травмы, недавние операции.</li>
+          <li>Кожные заболевания в зоне массажа.</li>
+          <li>Тромбоз или выраженный варикоз.</li>
+          <li>Онкологические заболевания.</li>
+          <li>Беременность — без согласования с врачом.</li>
+        </ul>
+      </article>
+    </div>
+    <div class="doctor" data-aos="fade-up">
+      <i class="fa-solid fa-user-doctor"></i>
+      <p><b>Перед обращением к массажисту рекомендуется проконсультироваться с врачом</b> — особенно при хронических заболеваниях, проблемах с давлением или сердцем. Перед первым сеансом я пришлю короткую анкету о самочувствии.</p>
+    </div>
+  </div>
+</section>
+
 <section class="faq" id="faq">
   <div class="wrap">
     <span class="eyebrow">Вопросы</span>
     <h2 class="h2">Что обычно спрашивают</h2>
     <div class="faq-list">
       <details><summary>Что нужно подготовить?</summary><p>Только свободное место примерно 2×1 метра. Стол, масла, полотенца и одноразовые простыни я привезу.</p></details>
-      <details><summary>Кому нельзя массаж?</summary><p>Массаж лучше отложить, если у вас:</p><ul><li>температура или плохое самочувствие;</li><li>острые воспаления, свежие травмы, недавние операции;</li><li>кожные заболевания в зоне массажа;</li><li>тромбоз или выраженный варикоз;</li><li>онкологические заболевания;</li><li>беременность — без согласования с врачом.</li></ul><p>Если сомневаетесь — спросите врача. Перед первым сеансом я пришлю короткую анкету.</p></details>
-      <details><summary>Вы работаете с мужчинами?</summary><p>Сейчас — только с женщинами.</p></details>
+      <details><summary>Кому нельзя массаж?</summary><p>Подробный список требований и противопоказаний — в разделе <a href="#clients">«Клиентам»</a>.</p></details>
+      <details><summary>С кем вы работаете?</summary><p>Со взрослыми от 18 лет — и с мужчинами, и с женщинами. Детям и подросткам массаж не делаю.</p></details>
       <details><summary>Как оплатить?</summary><p>Наличными или переводом после сеанса. За первый выезд — предоплата 300–500 ₽, она входит в стоимость. Я самозанятая и выдаю чек.</p></details>
       <details><summary>Можно отменить или перенести?</summary><p>Да, бесплатно — если предупредите не позже чем за 12 часов.</p></details>
     </div>
@@ -524,7 +577,7 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
       <!-- TODO: ссылка DIKIDI -->
       <a class="btn btn-primary" href="#contacts"><i class="fa-regular fa-calendar"></i> Записаться онлайн</a>
     </div>
-    <p class="cta-note">Вт–сб, 10:00–21:00 · Красногвардейский район и рядом · Только для женщин</p>
+    <p class="cta-note">Вт–сб, 10:00–21:00 · Красногвардейский район и рядом · Для взрослых 18+</p>
     <div class="contact-cards">
       <!-- TODO: реальные ссылки -->
       <a class="contact-card" href="#contacts"><i class="fa-brands fa-telegram"></i><div><span>Telegram</span><b>@username</b></div></a>
@@ -558,7 +611,7 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
       </div>
       <div>
         <h4>Разделы</h4>
-        <ul><li><a href="#how">Как это работает</a></li><li><a href="#about">Обо мне</a></li><li><a href="#faq">Вопросы</a></li><li><a href="policy.html">Политика конфиденциальности</a></li></ul>
+        <ul><li><a href="#how">Как это работает</a></li><li><a href="#about">Обо мне</a></li><li><a href="#clients">Клиентам</a></li><li><a href="#faq">Вопросы</a></li><li><a href="policy.html">Политика конфиденциальности</a></li></ul>
       </div>
     </div>
     <!-- TODO: при запуске — ФИО и ИНН самозанятой -->
