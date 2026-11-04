@@ -150,7 +150,7 @@ nav.main .btn{padding:11px 20px;font-size:15px}
 
 /* offers */
 .offers{background:var(--sand)}
-.offer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+.offer-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:48px}
 .offer{background:var(--white);border-radius:18px;padding:32px;border:1px solid rgba(46,56,48,.08)}
 .offer .big{font-family:var(--display);font-size:54px;font-weight:600;color:var(--accent);line-height:1}
 .offer h3{font-size:24px;margin:12px 0 8px}
@@ -169,7 +169,6 @@ nav.main .btn{padding:11px 20px;font-size:15px}
 .checks{list-style:none;padding:0;margin:0 0 30px;display:grid;gap:12px}
 .checks li{display:flex;gap:12px;font-size:17px;line-height:1.5;color:rgba(255,255,255,.9)}
 .checks i{color:var(--accent-light);margin-top:4px}
-.cert{margin-top:26px;max-width:320px;aspect-ratio:3/2}
 
 /* zones */
 .zones{background:var(--cream)}
@@ -365,7 +364,7 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
         <span class="eyebrow">Как это работает</span>
         <h2 class="h2">Вам не нужно никуда ехать</h2>
       </div>
-      <p class="lead">От вас — подготовленная комната: свободное место примерно 2×1 метра, заранее проветрить и настроить комфортное приглушённое освещение. Стол, масла и бельё я привожу с собой.</p>
+      <p class="lead">От вас — подготовленная комната: свободное место примерно 2×1 метра, заранее проветрить и настроить комфортное приглушённое освещение, по желанию — включить спокойную музыку, приготовить плед. Стол, масла и бельё я привожу с собой.</p>
     </div>
     <div class="steps">
       <article class="step" data-aos="fade-up">
@@ -397,7 +396,7 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
   <div class="wrap">
     <span class="eyebrow">Услуги и цены</span>
     <h2 class="h2">Три формата — под ваше настроение</h2>
-    <p class="lead">Перед сеансом обсудим пожелания по зонам и силе нажима. Массаж немедицинский — для отдыха и лёгкости. Перед первым массажем проконсультируйтесь с врачом.</p>
+    <p class="lead">Перед сеансом обсудим пожелания по зонам и силе нажима. Массаж немедицинский — для отдыха и лёгкости. Перед первым массажем проконсультируйтесь с врачом. Записывайтесь на массаж только при отсутствии противопоказаний.</p>
     <div class="svc-grid">
       <article class="service-card featured" data-tilt data-aos="fade-up">
         <i class="ic fa-solid fa-spa"></i>
@@ -451,6 +450,11 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
         <h3>Абонемент на 5 сеансов</h3>
         <p>Регулярный массаж раз в 1–2 недели. Закреплю за вами постоянное время.</p>
       </article>
+      <article class="offer" data-aos="fade-up" data-aos-delay="270">
+        <div class="big">−500 ₽</div>
+        <h3>Второй клиент на том же адресе</h3>
+        <p>Массаж нужен двоим в одной квартире? Приеду один раз — второму сеансу скидка 500 ₽.</p>
+      </article>
     </div>
   </div>
 </section>
@@ -471,8 +475,6 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
         <li data-aos="fade-left" data-aos-delay="500"><i class="fa-solid fa-circle-check"></i>Самозанятая, на каждую оплату выдаю чек</li>
       </ul>
       <a class="btn btn-primary" href="#contacts">Записаться к Маргарите</a>
-      <!-- TODO: фото сертификата курсов -->
-      <div class="ph cert"><i class="fa-solid fa-award"></i><b>Сертификат курсов</b>Фото ровно, без бликов</div>
     </div>
   </div>
 </section>
@@ -531,7 +533,9 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
           <li>Хорошее самочувствие — без температуры и признаков простуды.</li>
           <li>Трезвое состояние.</li>
           <li>Желательно принять душ и не есть плотно за 1–2 часа до сеанса.</li>
-          <li><b>Подготовленная комната</b> — место 2×1 м, проветрено, комфортное освещение.</li>
+          <li><b>Подготовленная комната</b> — место 2×1 м, проветрено, комфортное освещение; по желанию — включить спокойную музыку, приготовить плед.</li>
+          <li><b>Без табачного дыма</b> — в комнате не курят перед сеансом и во время него.</li>
+          <li><b>Собаки</b> — на время сеанса в другом помещении или в наморднике.</li>
         </ul>
       </article>
       <article class="cl-card" data-aos="fade-up" data-aos-delay="180">
@@ -548,7 +552,7 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
     </div>
     <div class="doctor" data-aos="fade-up">
       <i class="fa-solid fa-user-doctor"></i>
-      <p><b>Перед первым массажем проконсультируйтесь с врачом</b> — особенно при хронических заболеваниях, проблемах с давлением или сердцем. Массаж немедицинский: решение о его возможности принимаете вы вместе с врачом.</p>
+      <p><b>Перед первым массажем проконсультируйтесь с врачом</b> — особенно при хронических заболеваниях, проблемах с давлением или сердцем. Массаж немедицинский: решение о его возможности принимаете вы вместе с врачом. <b>Записывайтесь на массаж только при отсутствии противопоказаний.</b></p>
     </div>
   </div>
 </section>
@@ -558,7 +562,7 @@ footer ul i{width:18px;color:var(--sage);margin-right:6px}
     <span class="eyebrow">Вопросы</span>
     <h2 class="h2">Что обычно спрашивают</h2>
     <div class="faq-list">
-      <details><summary>Что нужно подготовить?</summary><p>Комнату: свободное место примерно 2×1 метра, заранее проветрить и настроить комфортное освещение — мягкий свет, без яркой люстры. Стол, масла, полотенца и одноразовые простыни я привезу.</p></details>
+      <details><summary>Что нужно подготовить?</summary><p>Комнату: свободное место примерно 2×1 метра, заранее проветрить и настроить комфортное освещение — мягкий свет, без яркой люстры. По желанию можно включить спокойную музыку и приготовить плед. В комнате не должно быть табачного дыма, собак — в другое помещение или в намордник. Стол, масла, полотенца и одноразовые простыни я привезу.</p></details>
       <details><summary>Кому нельзя массаж?</summary><p>Подробный список требований и противопоказаний — в разделе <a href="#clients">«Клиентам»</a>.</p></details>
       <details><summary>С кем вы работаете?</summary><p>Со взрослыми от 18 лет — и с мужчинами, и с женщинами. Детям и подросткам массаж не делаю.</p></details>
       <details><summary>Как оплатить?</summary><p>Наличными или переводом после сеанса. За первый выезд — предоплата 300–500 ₽, она входит в стоимость. Я самозанятая и выдаю чек.</p></details>
